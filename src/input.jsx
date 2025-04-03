@@ -1,11 +1,16 @@
-export function Input({label, type, onChange, minLength, pattern}){
+export function Input({label, type, onChange, minLength, pattern, placeholder}){
     return(
         <>
-        <div>
-            <label>{label}:</label>
-        </div>
-        <div>
-            <input type={type} onChange={onChange} minLength={minLength} required></input>
+        <div className='input_margin'>
+            <div className='med_font'>
+                <label>{label}:</label>
+            </div>
+            <div className='small_font'>
+                Ex. {placeholder}
+            </div>
+            <div>
+                <input type={type} onChange={onChange} minLength={minLength} pattern={pattern} placeholder={placeholder} required></input>
+            </div>
         </div>
         </>
     )

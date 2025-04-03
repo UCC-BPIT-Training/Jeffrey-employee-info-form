@@ -71,3 +71,38 @@ form {
   border-radius: 25px;
   padding: 30px;
 }
+
+.small_font{
+  font-size: 10px;
+}
+
+.med_font{
+  font-size: 22px;
+}
+
+.horizontal_center_button{
+  margin: 0 auto;
+  display: block;
+}
+
+.horizontal_center_text{
+  text-align: center;
+}
+
+.input_margin{
+  margin: 5px;
+}
+
+.input_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.input_left{
+  width: 50%;
+}
+
+.input_right{
+  width: 50%
+}
