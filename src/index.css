@@ -63,3 +63,11 @@ form {
     background-color: #f9f9f9;
   }
 }
+
+
+.form_border{
+  border-style: solid; 
+  border-color: white;
+  border-radius: 25px;
+  padding: 30px;
+}
